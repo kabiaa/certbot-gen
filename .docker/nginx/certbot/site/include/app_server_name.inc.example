@@ -1,0 +1,3 @@
+server_name <IP>.nip.io <DOMAINS>;
+ssl_certificate /etc/letsencrypt/live/<IP.nip.io|DOMAIN>/fullchain.pem;
+ssl_certificate_key /etc/letsencrypt/live/<IP.nip.io|DOMAIN>/privkey.pem;
