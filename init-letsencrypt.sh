@@ -71,3 +71,6 @@ echo
 
 echo "### Reloading nginx ..."
 docker compose exec nginx nginx -s reload
+
+echo "### Stopping nginx ..."
+docker compose stop
