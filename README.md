@@ -4,3 +4,4 @@
 - Make a copy of `app_server_name.inc.example` and add nip.io/domains
 - Enable port forward
 - Run `init-letsencrypt.sh`
+- Copy `.docker/nginx/certbot/conf` contents to wherever needed 
